@@ -32,31 +32,6 @@ body {
   background-attachment: fixed;
 }
 
-.content {
-  /* Styles pour le contenu au-dessus du GIF en arrière-plan */
-  /* Ajoutez des styles de mise en forme pour votre contenu ici */
-}
-
-/* Styles pour le bouton stylisé */
-.custom-button {
-  display: inline-block;
-  padding: 10px 20px;
-  font-size: 16px;
-  font-weight: bold;
-  color: #fff;
-  background-color: #b82498;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  transition: background-color 0.3s;
-}
-
-.custom-button:hover {
-  background-color: #5acce0;
-}
-
 h1 {
   height: 650px;
   font-size: 80px;
@@ -86,15 +61,9 @@ h1 {
 /* Styles pour le conteneur de la vidéo */
 .video-container {
   position: relative;
-  ma-top: 10cm;
+  margin-top: 15%;
+  margin-left: 32%;
   width: 560px; /* Largeur de la vidéo */
   height: 315px; /* Hauteur de la vidéo */
 }
 
-.video-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 60%;
-  height: 60%;
-}
