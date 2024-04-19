@@ -1,0 +1,100 @@
+.container {
+  position: absolute;
+  /* Positionnement absolu pour centrer */
+  top: 50%;
+  /* Déplacement de la moitié de la hauteur de la page */
+  left: 50%;
+  /* Déplacement de la moitié de la largeur de la page */
+  transform: translate(-50%, -50%);
+  /* Centrage parfait du contenu */
+  text-align: center;
+  /* Centre le texte horizontalement */
+}
+
+/* Styles pour le bouton stylisé */
+
+/* Styles pour le GIF en arrière-plan */
+body {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+  margin: 0;
+  /* Annule les marges par défaut du body */
+  padding: 0;
+  /* Annule les remplissages par défaut du body */
+  background-image: url("background.gif");
+  /* Chemin de l'image GIF */
+  background-size: cover;
+  /* Redimensionne l'image pour remplir tout l'écran */
+  background-position: center;
+  /* Centre l'image */
+  background-repeat: no-repeat;
+  /* Empêche la répétition de l'image */
+  background-attachment: fixed;
+}
+
+.content {
+  /* Styles pour le contenu au-dessus du GIF en arrière-plan */
+  /* Ajoutez des styles de mise en forme pour votre contenu ici */
+}
+
+/* Styles pour le bouton stylisé */
+.custom-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #b82498;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.custom-button:hover {
+  background-color: #5acce0;
+}
+
+h1 {
+  height: 650px;
+  font-size: 80px;
+  color: rgb(255, 255, 255);
+}
+
+
+.text{
+  text-transform: uppercase; 
+  background-image: linear-gradient(to right, #00F260, #f79d00, #0575E6, #64f38c);
+  -webkit-background-clip: text; 
+  background-clip: text; 
+  color: transparent;
+  
+  background-size: 300%;
+  background-position: -100%;  
+  
+  animation: animatedText 7s infinite alternate-reverse;
+}
+
+@keyframes animatedText{
+  to{
+    background-position: 100%; 
+  }
+}
+
+/* Styles pour le conteneur de la vidéo */
+.video-container {
+  position: relative;
+  ma-top: 10cm;
+  width: 560px; /* Largeur de la vidéo */
+  height: 315px; /* Hauteur de la vidéo */
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60%;
+  height: 60%;
+}
