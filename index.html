@@ -12,8 +12,22 @@
     <div id="Title1" class="container">
     <h1 class="text">Chill Vibes</h1>
     </div>
+    <script>
+        function changeVideo() {
+          var newVideoId = prompt("4xDzrJKXOOY");
+          if (newVideoId) {
+            var iframe = document.getElementById('youtube-video');
+            iframe.src = 'https://www.youtube.com/embed/' + newVideoId;
+          }
+        }
+      </script>
     <div class="video-container">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/jfKfPfyJRdk" title="lofi hip hop radio 📚 - beats to relax/study to" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" ></iframe>
     </div>
+    <button id="change-video-btn" onclick="changeVideo()">Changer la vidéo</button>
+
+
+
+
 </body>
 </html>
